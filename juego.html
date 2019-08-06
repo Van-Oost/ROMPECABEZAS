@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+  </head>
+  <body>
+      <div id="cartelGanador">
+        <img class="bailando" src="/images/bmo.gif" alt="bmo bailando">  
+        <p class="grande">¡GANASTE!</p>
+          <p>Felicitaciones, completaste el desafío.</p>
+        <div class="boton" onclick="ocultarCartelGanador()">Aceptar</div>
+      </div>
+
+    <div class="col-40">
+    
+      <div id="titulo">
+      </div>
+      <div id="instrucciones">
+        <ul id="lista-instrucciones">
+        </ul>
+      </div>
+      <div id="objetivo">
+        <div class="texto-centrado">
+          
+        </div>
+        <img class="imgObjetivo" src="/images/final.png" alt="imagen objetivo">
+      </div>
+      <div id="ultimo-mov">
+        <p>Último movimiento:</p>
+        <div id="flecha" class="texto-centrado">
+        </div>
+        <div class="boton" onclick="mezclarPiezas(30)"> Volver a mezclar </div>
+      </div>
+      
+    </div>
+    <div class="col-60">
+      <div id="juego">
+        
+        <div  id="pieza1"> 
+          <img class="piezas"src="images/10.jpg" alt="pieza 1">
+        </div>
+
+        <div id="pieza2"> 
+          <img class="piezas" src="images/20.jpg" alt="pieza 2">
+        </div>
+
+        <div id="pieza3"> 
+          <img class="piezas" src="images/30.jpg" alt="pieza 3">
+        </div>
+
+        <div id="pieza4"> 
+          <img class="piezas" src="images/40.jpg" alt="pieza 4">
+        </div>
+
+        <div id="pieza5"> 
+          <img class="piezas" src="images/50.jpg" alt="pieza 5">
+        </div>
+
+        <div id="pieza6"> 
+          <img class="piezas" src="images/60.jpg" alt="pieza 6">
+        </div>
+        
+        <div id="pieza7"> 
+          <img class="piezas" src="images/70.jpg" alt="pieza 7">
+        </div>
+          
+        <div id="pieza8"> 
+          <img class="piezas" src="images/80.jpg" alt="pieza 8">
+        </div>
+          
+        <div class="piezas" id="pieza9"> 
+            
+        </div>
+
+      </div>
+    </div>
+    <div id="footer">
+    </div>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
